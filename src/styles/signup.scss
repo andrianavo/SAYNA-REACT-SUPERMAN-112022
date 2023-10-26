@@ -1,0 +1,61 @@
+#hero_sign-up {
+    background-image: url("../assets/images/img19.png");
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: cover;
+    position: relative;
+    filter: opacity(25%);
+    min-height: 700px;
+    .container {
+        width: 35%;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        top: 200px;
+    }
+    h2 {
+        width: 750px;
+        text-transform: uppercase;
+        position: relative;
+        left: -50px;
+        font-size: 60px;
+    }
+    img {
+        position: relative;
+        top: 400px;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: purple;
+        border-radius: 20px;
+        border: none;
+        padding: 45px;
+        input {
+            background: none;
+            display: block;
+            border: 1px solid white;
+            padding: 15px;
+            font-weight: bold;
+        }
+        label {
+            display: block;
+            color: blue;
+        }
+        span {
+            display: none;
+        }
+        button {
+            width: 174px;
+            height: 54px;
+            border: none;
+            background: blue;
+            color: purple;
+            margin-top: 15px;
+            &:hover {
+                box-shadow: 0px 0px 20px var(--bluedark);
+            }
+        }
+    }
+}
